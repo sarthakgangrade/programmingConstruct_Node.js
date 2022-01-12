@@ -6,4 +6,4 @@ if(n==0)
 else
 {
     console.log("tails")
-}
+}                                                                         
