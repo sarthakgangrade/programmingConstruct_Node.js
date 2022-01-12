@@ -2,19 +2,19 @@
 const ps=require('prompt-sync')
 const prompt=ps();
 console.log("enter the no. to perform arithmatic operations");
-let a = prompt("enter no.-1 : ");
-let b = prompt("enter no.-2 : ");
-let c = prompt("enter no.-3 : ");
-let ans1=( a + b *c)
+let a = parseInt(prompt("enter no.-1 : "));
+let b = parseInt(prompt("enter no.-2 : "));
+let c = parseInt(prompt("enter no.-3 : "));
+let ans1=a + b * c
 console.log("The compute of ( a + b *c) is : " +ans1)
       
-let ans2=( a * b +c)
+let ans2= a * b +c
 console.log("The compute of ( a * b +c) is : "+ans2)
     
-let ans3=( a +b /c)
+let ans3= a +b /c
 console.log("The compute of ( a +b /c) is : " +ans3)
 
-let ans4=( a%b+(a*c))
+let ans4= a%b+(a*c)
 console.log("The compute of ( a%b+c) : "+ans4)
 
 
