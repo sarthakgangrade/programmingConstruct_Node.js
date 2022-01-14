@@ -1,7 +1,7 @@
 "use strict"
 const ps=require('prompt-sync')
 const prompt=ps();
-console.log("find prime number or not")
+console.log("prime factors")
 let n = parseInt(prompt("enter number: "));
 for (let i=1; i*i<=n; i++)
 {
