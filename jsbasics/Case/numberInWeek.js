@@ -26,4 +26,7 @@ switch(n)
                             case 6:
                                 console.log("saturday!!")
                                 break;  
+                                default:
+                                    console.log("invalid input")
+                                    break;
 }
